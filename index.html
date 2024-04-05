@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Prediction Website » Live Weather Updates</title>
+    <meta name="title" content="Weather Prediction Website » Live Weather Updates"/>
+    <meta
+      name="keywords"
+      content="Weather Prediction, Weather Prediction Website, Weather Live Updates, Check Upcoming Weather Updates"
+    />
+    <meta
+      name="description" 
+      content="here you will get all updates related to upcoming weather and also every second live updates."
+    />
+    <meta name="Author" content="Ankit Vishwakarma, Sonal Mehta, Ashish sriramoju"/>
+    <meta
+      name="og:title"
+      content="Weather Prediction Website » Live Weather Updates"
+    />
+    <meta
+      name="og:description"
+      content="here you will get all updates related to upcoming weather and also every second live updates."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="540" />
+    <meta property="og:image:height" content="282" />
+    <meta
+      property="og:site_name"
+      content="Weather Prediction Website » Live Weather Updates"
+    />
+    <link rel="canonical" href="index.html" />
+    <!-- CSS File Start -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/fev.png"
+      href="img/fevicon-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" type="image/fev.png" href="assets/fevicon-icon.png">
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <!-- weather icons start -->
+
+        <div class="container_i">
+          <div class="sunny"></div>
+          <div class="cloudy"></div>
+          <div class="rainy"></div>
+          <div class="snowy"></div>
+          <div class="rainbow"></div>
+          <div class="starry"></div>
+          <div class="stormy"></div>
+        </div>
+
+        <!-- weather icon end -->
+
+        <!-- greadian Title Start -->
+
+        <h1>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Weather Forcast</span>
+          </span>
+        </h1>
+      </header>
+      <section>
+        <div class="left_box">
+          <div class="weather">
+            <img src="assets/earth.png" class="weather_icon" />
+            <h1 class="celcius">22°C</h1>
+            <h2 class="city"><i class="bi bi-geo-alt-fill"></i> New York</h2>
+            <div class="details">
+              <div class="col">
+                <img src="assets/humidity.png" />
+                <div>
+                  <p class="humidity">0%</p>
+                  <p>Humidity</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <i class="bi bi-water"></i>
+                <div>
+                  <p class="wind">0 km/h</p>
+                  <p>Wind Speed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_box">
+          <div class="app_content">
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Enter city name :"
+                spellcheck="false"
+              />
+              <i class="bi search_btn bi-search"></i>
+            </div>
+            <div class="error">
+              <p>Invalid City Name!</p>
+            </div>
+            <hr style="color: #00ffea;">
+            <div class="app_desc">
+              <p style="color: #699f9b;">
+                Weather forecasting is the prediction of what the atmosphere
+                will be like in a particular place by using technology and
+                scientific knowledge to make weather observations. In other
+                words, it's a way of predicting things like cloud cover, rain,
+                snow, wind speed, and temperature before they happen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
